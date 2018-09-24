@@ -1,4 +1,5 @@
 
+
 public class StringDemo {
 
 	public static void main(String[] args) {
@@ -8,7 +9,7 @@ public class StringDemo {
 		String s3 = "Hello";
 		
 		System.out.println( s1 == s2);
-		System.out.println( s1 == s3);
+		System.out.println( s1 == s3);//s1 and s3 stored in same location
 		
 		s1 = s1 + "World";
 		//s1.concat("World");
